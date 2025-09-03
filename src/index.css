@@ -131,7 +131,7 @@
 }
 
 @utility story-img-container {
-  @apply relative md:h-dvh h-[90vh] w-full;
+  @apply relative w-full aspect-[16/9] md:aspect-[21/9];
   filter: url("#flt_tag");
 }
 
